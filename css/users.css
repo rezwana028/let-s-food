@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    background-color: #ffab4b3d;
+
+}
+
+.logo h1 {
+    font-weight: 600;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    display: inline;
+
+}
+
+nav ul li a:hover {
+    color: brown;
+}
+
+
+section h1 {
+    font-size: 30px;
+    color: rgb(83, 5, 5);
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    color: rgb(104, 24, 24);
+}
+
+.user {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(150, 93, 93);
+    border-radius: 0 15px;
+    background-color: rgba(255, 228, 196, 0.308);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
+
+}
+
+.user:hover {
+    background-color: #ffab4b77;
+
+}
+
+#users {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 0;
+}
+
+
+
+footer {
+    background-image: url(../image/bg-image.png);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    margin: 50px 0;
+}

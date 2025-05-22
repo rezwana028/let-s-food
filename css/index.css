@@ -1,0 +1,163 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../image/bg-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+    background-color: #ffab4b3d;
+
+}
+
+.logo h1 {
+    font-weight: 600;
+}
+
+nav {}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    display: inline;
+
+}
+
+nav ul li a:hover {
+    color: brown;
+}
+
+
+/* =======hero======== */
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0 0 0;
+}
+
+.hero div h2 {
+    font-family: serif;
+    font-size: 50px;
+    line-height: 45px;
+    margin: 0;
+
+}
+
+.hero div h2 span {
+    color: rgb(254, 194, 73);
+}
+
+.hero div button {
+    padding: 15px 30px;
+    background-color: rgb(254, 194, 73);
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+}
+
+.hero div button:hover {
+    background-color: rgb(241, 163, 7);
+    letter-spacing: 1px;
+
+
+
+}
+
+
+.food {
+    height: 300px;
+    width: 400px;
+}
+
+
+
+
+/* ------item-section---- */
+
+section {}
+
+section h1 {
+    font-size: 30px;
+    color: rgb(83, 5, 5);
+    font-weight: 600;
+    text-decoration: underline;
+    text-align: center;
+    margin: 150px 0 70px 0;
+}
+
+#items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 50px;
+}
+
+.food {
+    border: 2px solid rgba(165, 42, 42, 0.596);
+    height: 400px;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+    margin: 0 10px 50px 10px;
+    background-color: rgba(252, 187, 155, 0.683);
+    transition: 0.5s;
+
+
+}
+
+.food:hover {
+    background-color: antiquewhite;
+
+}
+
+.food-1 {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px 10px 0 0;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.price h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.food p {
+    padding: 0 10px;
+}
+
+/* ---footer--- */
+
+footer {
+    background-image: url(../image/bg-image.png);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px;
+    margin: 50px 0;
+}
