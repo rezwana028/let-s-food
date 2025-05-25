@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -8,6 +13,7 @@ body {
     height: 100vh;
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +22,7 @@ header {
     background-color: #ffab4b3d;
 
 }
+
 
 .logo h1 {
     font-weight: 600;
@@ -41,6 +48,7 @@ nav ul li a {
     display: inline;
 
 }
+
 
 nav ul li a:hover {
     color: brown;
@@ -86,71 +94,68 @@ nav ul li a:hover {
 }
 
 
+
+
 .food {
     height: 300px;
     width: 400px;
 }
 
 
+/* ----about- section---- */
 
-
-/* ------item-section---- */
-
-section {}
-
-section h1 {
-    font-size: 30px;
-    color: rgb(83, 5, 5);
-    font-weight: 600;
-    text-decoration: underline;
+#About {
+    margin: 150px 200px 50px 200px;
     text-align: center;
-    margin: 150px 0 70px 0;
-}
-
-#items {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 50px;
-}
-
-.food {
-    border: 2px solid rgba(165, 42, 42, 0.596);
-    height: 400px;
-    width: 350px;
-    border-radius: 10px 10px 0 0;
-    margin: 0 10px 50px 10px;
-    background-color: rgba(252, 187, 155, 0.683);
-    transition: 0.5s;
-
 
 }
 
-.food:hover {
-    background-color: antiquewhite;
-
+#About h2 {
+    color: rgb(253, 147, 17);
 }
 
-.food-1 {
-    height: 300px;
-    width: 350px;
-    border-radius: 10px 10px 0 0;
-}
-
-.price {
+.delivery {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 10px 0px 10px;
+    margin-top: 50px;
+    justify-content: space-around;
+    text-align: center;
 
 }
 
-.price h3 {
-    margin: 0;
-    padding: 0;
+.discount {
+    background-image: url(../image/discount.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+
 }
 
-.food p {
-    padding: 0 10px;
+.discount h2 {
+    padding-top: 40px;
 }
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(254, 194, 73);
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: rgb(241, 163, 7);
+    letter-spacing: 1px;
+}
+
+
+
+
+
 
 /* ---footer--- */
 
