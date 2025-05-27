@@ -13,14 +13,12 @@ body {
     height: 100vh;
 }
 
-
 header {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
     align-items: center;
     background-color: #ffab4b3d;
-
 }
 
 
