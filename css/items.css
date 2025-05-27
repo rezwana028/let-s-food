@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -44,66 +48,107 @@ nav ul li a:hover {
     color: brown;
 }
 
-section {}
+/* ----hero- section--- */
+
+
+
 
 section h1 {
     font-size: 30px;
-    color: rgb(83, 5, 5);
+    color: rgb(188, 7, 7);
     font-weight: 600;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-align: center;
     margin: 50px;
 }
 
-#items {
+section div {
+    text-align: center;
+}
+
+input {
+    padding: 10px 180px 10px 5px;
+}
+
+.Search {
+    padding: 10px 20px;
+    color: brown;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    border: 2px solid rgba(252, 106, 21, 0.742);
+    background-color: rgba(252, 106, 21, 0.742);
+}
+
+.Search:hover {
+    background-color: bisque;
+}
+
+#foods {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 0 50px;
+    margin: 50px;
+    gap: 30px;
 }
 
-.food {
-    border: 2px solid rgba(165, 42, 42, 0.596);
-    height: 400px;
-    width: 350px;
-    border-radius: 10px 10px 0 0;
-    margin: 0 10px 50px 10px;
-    background-color: rgba(252, 187, 155, 0.683);
-    transition: 0.5s;
-
-
+.col {
+    border: 2px solid brown;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: rgba(250, 235, 215, 0.322);
 }
 
-.food:hover {
-    background-color: antiquewhite;
-
+.col h4 {
+    font-size: 20px;
+    color: rgb(138, 5, 5);
 }
 
-.food-1 {
+.col img {
     height: 300px;
-    width: 350px;
-    border-radius: 10px 10px 0 0;
-}
-
-.price {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 10px 0px 10px;
+    width: 100%;
 
 }
 
-.price h3 {
+.food-button {
+    padding: 10px 20px;
+    color: brown;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 70%;
+    transition: all 0.3s linear;
+    border: 2px solid rgba(252, 106, 21, 0.742);
+    background-color: rgba(252, 106, 21, 0.742);
+}
+
+.food-button:hover {
+    background-color: rgba(123, 111, 46, 0.201);
+
+
+}
+
+.card-Big {
+    text-align: center;
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid brown;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: rgba(250, 235, 215, 0.322);
+    padding: 10px;
+
+
+
+}
+
+.card-Big img {
+    height: 400px;
+    width: 100%;
+}
+
+.card-Big h4 {
+    font-size: 30px;
     margin: 0;
-    padding: 0;
-}
-
-.food p {
-    padding: 0 10px;
-}
-
-footer {
-    background-image: url(../image/bg-image.png);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 30px;
-    margin: 50px 0;
+    color: rgb(177, 7, 7);
 }
