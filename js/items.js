@@ -14,6 +14,8 @@ document.getElementById('search-button').addEventListener('click', function () {
 const displaydata = (foods) => {
     const uiDiv = document.getElementById('foods');
     uiDiv.innerHTML = ``;
+    const singleFood = document.getElementById('single-food');
+    singleFood.textContent = ''
 
 
 
